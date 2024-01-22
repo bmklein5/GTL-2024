@@ -13,13 +13,21 @@ follow the following structure
 """
 
 # init the empty list
+my_list = []
 
 # get 3 items from user and add them to the list
 # you'll want to use the .append() method
+for i in range(3):
+    item_to_add = input("give me an item to add: ")
+    my_list.append(item_to_add)
 
 # display the list
+print(my_list)
 
 # ask user for 1 item to remove
 # you'll want to use the .remove() method
+item_to_remove = input("give me an item from the list to remove: ")
+my_list.remove(item_to_remove)
 
 # display the final list
+print(my_list)
