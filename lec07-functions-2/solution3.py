@@ -1,5 +1,6 @@
 # HINTS: 
 # 'continue' keyword is helpful for ignoring spaces in count_character()
+# you can find the largest value in a dict with x = max(my_dict.values())
 
 def count_character(string):
     """ count the frequency of characters in a string, ignoring spaces and capitalization
