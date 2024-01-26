@@ -6,10 +6,6 @@ def is_even(number):
     return (number % 2 == 0)
 
 
-if is_even(4):
-    print("doing something")
-
-
 
 # TEST CASES
 assert(is_even(4))
