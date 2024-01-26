@@ -2,7 +2,7 @@ def is_even(number):
     """checks if a number is even
     returns True or False
     """
-    pass
+    return True
 
 
 

@@ -12,6 +12,7 @@ def reverse_string2(string):
     reversed_string = ""  # Initialize an empty string to store the reversed string
     for char in string:
         reversed_string = char + reversed_string  # Add each character to the front of the reversed_string
+        print(reversed_string)
     return reversed_string
 
 
